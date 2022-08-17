@@ -6,9 +6,9 @@ import (
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/klimby/go-advanced-lessons/internal/config"
+	repeatable "github.com/klimby/go-advanced-lessons/pkg/utils"
 	"log"
-	"restapi-lesson/internal/config"
-	"restapi-lesson/pkg/utils"
 	"time"
 )
 

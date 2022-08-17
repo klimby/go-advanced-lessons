@@ -4,16 +4,17 @@ import (
 	"context"
 	"fmt"
 	"github.com/julienschmidt/httprouter"
+	author2 "github.com/klimby/go-advanced-lessons/internal/author"
+	author "github.com/klimby/go-advanced-lessons/internal/author/db"
+	"github.com/klimby/go-advanced-lessons/internal/config"
+	"github.com/klimby/go-advanced-lessons/pkg/client/postgresql"
+	"github.com/klimby/go-advanced-lessons/pkg/logging"
 	"net"
 	"net/http"
 	"os"
 	"path"
 	"path/filepath"
-	author2 "restapi-lesson/internal/author"
-	author "restapi-lesson/internal/author/db"
-	"restapi-lesson/internal/config"
-	"restapi-lesson/pkg/client/postgresql"
-	"restapi-lesson/pkg/logging"
+
 	"time"
 )
 

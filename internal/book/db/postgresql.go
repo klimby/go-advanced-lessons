@@ -2,9 +2,9 @@ package db
 
 import (
 	"context"
-	"restapi-lesson/internal/book"
-	"restapi-lesson/pkg/client/postgresql"
-	"restapi-lesson/pkg/logging"
+	"github.com/klimby/go-advanced-lessons/internal/book"
+	"github.com/klimby/go-advanced-lessons/pkg/client/postgresql"
+	"github.com/klimby/go-advanced-lessons/pkg/logging"
 )
 
 type repository struct {

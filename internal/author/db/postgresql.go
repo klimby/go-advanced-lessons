@@ -5,9 +5,10 @@ import (
 	"errors"
 	"fmt"
 	"github.com/jackc/pgconn"
-	"restapi-lesson/internal/author"
-	"restapi-lesson/pkg/client/postgresql"
-	"restapi-lesson/pkg/logging"
+	"github.com/klimby/go-advanced-lessons/internal/author"
+	"github.com/klimby/go-advanced-lessons/pkg/client/postgresql"
+	"github.com/klimby/go-advanced-lessons/pkg/logging"
+
 	"strings"
 )
 

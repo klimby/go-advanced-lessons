@@ -15,6 +15,14 @@
 # vendor/
 /.DS_Store
 /rest-api-tutorial/.idea
-/rest-api-tutorial/logs
-/rest-api-tutorial/build
-/rest-api-tutorial/.DS_Store
+/logs
+/build
+
+# IDEs and editors
+!/.idea
+.idea/workspace.xml
+.idea/dataSources
+/.idea/httpRequests/
+/.idea/shelf/
+
+/tmp

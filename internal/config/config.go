@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/ilyakaznacheev/cleanenv"
-	"restapi-lesson/pkg/logging"
+	"github.com/klimby/go-advanced-lessons/pkg/logging"
 	"sync"
 )
 

@@ -2,8 +2,8 @@ package db
 
 import (
 	"database/sql"
-	"restapi-lesson/internal/author"
-	"restapi-lesson/internal/book"
+	"github.com/klimby/go-advanced-lessons/internal/author"
+	"github.com/klimby/go-advanced-lessons/internal/book"
 )
 
 type Book struct {

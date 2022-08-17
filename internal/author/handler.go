@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/julienschmidt/httprouter"
+	"github.com/klimby/go-advanced-lessons/internal/apperror"
+	"github.com/klimby/go-advanced-lessons/internal/handlers"
+	"github.com/klimby/go-advanced-lessons/pkg/logging"
 	"net/http"
-	"restapi-lesson/internal/apperror"
-	"restapi-lesson/internal/handlers"
-	"restapi-lesson/pkg/logging"
 )
 
 const (
